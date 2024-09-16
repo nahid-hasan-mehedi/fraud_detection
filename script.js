@@ -8,8 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const options = {
             method: 'GET',
             headers: {
-                'X-RapidAPI-Key': 'c7d83dbe03msh75140758721c5d0p1ab93ejsnf1275ef35e42',  // Replace with your actual API key
-                'X-RapidAPI-Host': 'city-by-api-ninjas.p.rapidapi.com'  // Corrected the API host
+                'X-RapidAPI-Key': 'c7d83dbe03msh75140758721c5d0p1ab93ejsnf1275ef35e42',  //  API key
+                'X-RapidAPI-Host': 'city-by-api-ninjas.p.rapidapi.com'  //API host
             }
         };
 
