@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <!-- Include Bootstrap CSS (if using Bootstrap) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Custom styles for the navbar */
+        .navbar-brand img {
+            height: 40px; /* Adjust based on the logo size */
+        }
+        .navbar-nav .nav-item .nav-link {
+            color: #777; /* Adjust color to match your needs */
+            margin-right: 20px;
+        }
+        .navbar-toggler-icon {
+            color: #fff; /* Mobile button icon color */
+        }
+        .btn-demo {
+            background-color: #0679a1;
+            color: white;
+            padding: 10px 20px;
+            margin-left: auto;
+            border-radius: 5px;
+        }
+        .btn-demo:hover {
+            background-color: #055a84;
+        }
+
+        /* Project Summary Styles */
+        .project-summary {
+            background-color: #f8f9fa;
+            padding: 50px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .project-summary h2 {
+            color: #0070c9;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .project-summary p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #555;
+        }
+        .project-summary ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .project-summary ul li {
+            margin: 10px 0;
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <!-- Placeholder for the logo -->
+        <img src="Nasdaq-Verafin-Logo.webp" alt="Logo" style="height: 40px;"> <!-- Ensure logo.png is in the same folder as this file -->
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="product.html">Products</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://verafin.com/resources/?internal-source=menu">Resources</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://verafin.com/events/">News & Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://verafin.com/contact/">About Us</a>
+            </li>
+        </ul>
+        <a href="#" class="btn btn-demo">Request a Demo</a>
+    </div>
+</nav>
+
+<div class="project-summary">
+    <h2>Project Summary: Verafin-Themed Payment Fraud Detection System</h2>
+    <p>This project is a Payment Fraud Detection System designed with a clean, professional UI inspired by Verafin, a leading provider of fraud detection solutions. The web app enables users to input transaction details and detects potential fraud based on predefined rules and real-time city validation using the GeoDB Cities API.</p>
+
+    <ul>
+        <li>
+            <strong>Header Navigation</strong>: The top navigation bar includes the Verafin logo on the left and a 
+            <a href="product.html" style="color: #0070c9; text-decoration: none;">"Product"</a> 
+            link. Clicking on "<a href="product.html" style="color: #0070c9; text-decoration: none;">"Product"</a> " redirects you to the fraud detection system section other navigation bar will redirect official "Verafin" pages.
+        </li>
+        <li><strong>Fraud Detection Form</strong>: Users input details like card number, transaction amount, and location, with immediate feedback provided on the validity of the transaction.</li>
+        <li><strong>Dynamic Location Validation</strong>: The system uses the GeoDB Cities API to dynamically validate cities, ensuring accurate real-time data.</li>
+        <li><strong>Professional Design</strong>: The UI is styled in a sleek, professional manner with Verafin branding and responsive design.</li>
+    </ul>
+    <p>Technologies used include HTML5, CSS3, JavaScript, and the GeoDB Cities API for real-time location validation.</p>
+</div>
+
+
+
+<!-- Footer Section -->
+
+<style>
+    .contact-section {
+    background-color: #f2f2f2;
+    padding: 4rem 0;
+    }
+    form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: rgb(190, 146, 137);
+    border-radius: 5px;
+    }
+    .form-control {
+    border-radius: 10px;
+    }
+    .btn-primary {
+    border-radius: 5px;
+    background-color: black;
+    border-color: #007bff;
+    width: 100%;
+    }
+    .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+    }
+    .social-links a {
+    font-size: 1.5rem;
+    color: #333333;
+    }
+    .social-links a:hover {
+    color: #007bff;
+    }
+</style>
+
+
+<div class="contact-section">
+<h2 class="text-center font-weight-bold">Contact Me</h2>
+<p Style="text-align:center;"> 
+    "Hi there, if you have any queries please leave a message and I will reply for sure! You can also email me or use my other social media contacts."
+</p>
+<form action="https://formspree.io/f/myyadzyl" method="POST">
+    <div class="form-group d-flex align-items-left justify-content-start">
+        <label for="name" class="mr-3">Name:</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="form-group d-flex align-items-left justify-content-start">
+        <label for="email" class="mr-3">Email:</label>
+        <input type="email" class="form-control" id="email" name="_replyto" required>
+    </div>
+    <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+    </div>
+    <div class="form-group d-flex align-items-left justify-content-start">
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</form>
+</div>
+
+
+
+
+<style>
+.fab.fa-linkedin {
+color: rgb(104, 104, 113);
+}
+.fab.fa-github {
+color: rgb(83, 87, 83);
+
+}
+</style>
+<style>
+a .label {
+color: #373535; /* Replace with the desired color code */
+}
+
+</style>
+<div style="text-align: center;">
+<ul>
+  <a href="https://www.linkedin.com/in/mehedi-hasan-nahid-40a553139/" class=""><i class="fab fa-linkedin"></i><span class="label">Linkdin</span></a>
+  <a href="https://github.com/nahid-hasan-mehedi" class=""><i class="fab fa-github"></i><span class="label">Github</span></a>
+</ul>
+<div style="text-align:center;" id="footer">&copy; Mehedi Hasan Nahid 2023-2024. All Rights Reserved.</div>
+</div>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
