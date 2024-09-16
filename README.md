@@ -28,7 +28,10 @@ This project is a **Payment Fraud Detection System** with a clean and profession
 ### 6. Real-Time Feedback
 - After form submission, users receive **immediate feedback** on whether the transaction is safe or flagged for fraud.
 
-  ![Alt text](relative/path/to/your/homepage.png)
-  ![Alt text](relative/path/to/your/demo1.png)
+  
+<img width="1440" alt="homepage" src="https://github.com/user-attachments/assets/99314ef2-8718-442b-a70f-57cab7a7c42e">
+
+<img width="1440" alt="demo1" src="https://github.com/user-attachments/assets/1e65df83-befe-4ded-b214-fa0941a4f81c">
+
 
 
